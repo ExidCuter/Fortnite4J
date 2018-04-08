@@ -1,4 +1,4 @@
-package xyz.dodo.entity;
+package xyz.dodo.fortnite.entity;
 
 
 public class Player {

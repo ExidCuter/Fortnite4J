@@ -1,4 +1,4 @@
-package xyz.dodo.entity;
+package xyz.dodo.fortnite.entity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -45,6 +45,20 @@ public class League { //name by Oleksander
             case "curr_p9":
                 return Mode.squad_current;
             case "lifeTimeStats":
+                return Mode.life_time;
+            case "solo":
+                return Mode.solo;
+            case "duo":
+                return Mode.duo;
+            case "squad":
+                return Mode.squad;
+            case "currsolo":
+                return Mode.solo_current;
+            case "currduo":
+                return Mode.duo_current;
+            case "currsquad":
+                return Mode.squad_current;
+            case "life":
                 return Mode.life_time;
         }
         return Mode.unknown;

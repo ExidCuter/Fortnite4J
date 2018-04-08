@@ -1,4 +1,4 @@
-package xyz.dodo.parser;
+package xyz.dodo.fortnite.parser;
 
 import java.io.BufferedReader;
 import java.io.IOException;

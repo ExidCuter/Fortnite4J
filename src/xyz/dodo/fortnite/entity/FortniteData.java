@@ -1,4 +1,4 @@
-package xyz.dodo.entity;
+package xyz.dodo.fortnite.entity;
 
 import java.util.ArrayList;
 import java.util.List;

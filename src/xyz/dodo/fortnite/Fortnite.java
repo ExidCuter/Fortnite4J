@@ -1,9 +1,9 @@
 package xyz.dodo.fortnite;
 
 
-import xyz.dodo.entity.FortniteData;
-import xyz.dodo.parser.HTTPParser;
-import xyz.dodo.parser.JSONParser;
+import xyz.dodo.fortnite.entity.FortniteData;
+import xyz.dodo.fortnite.parser.HTTPParser;
+import xyz.dodo.fortnite.parser.JSONParser;
 
 import java.util.concurrent.TimeUnit;
 
