@@ -6,7 +6,7 @@ import xyz.dodo.fortnite.Fortnite;
 
 public class Main {
     public static void main(String[] args) {
-        Fortnite fortnite = new Fortnite("a293af93-e11a-41a7-93fe-3bdb2206728b");
+        Fortnite fortnite = new Fortnite("TRN KEY");
 
         FortniteData data = fortnite.getPlayerInfo("pc", "DodoDodovic"); // this is me
         if (data.getResult().isOk()){
