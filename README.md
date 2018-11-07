@@ -26,7 +26,7 @@ compile 'com.github.ExidCuter:Fortnite4J:master-SNAPSHOT'
 #### Code
 
 ```
-Fortnite fortnite = new Frortnite("YOUR-API-KEY");
+Fortnite fortnite = new Fortnite("YOUR-API-KEY");
 FortniteData data = fortnite.getPlayerInfo("pc", "ExidCuter"); // this is me
 if (data.getResult().isOk()) {
     System.out.println(data.getId());
