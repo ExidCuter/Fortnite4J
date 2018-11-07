@@ -17,6 +17,14 @@ For serious questions email me at domen.jesenovec@student.um.si and I will try t
 
 ### Usage
 
+#### Gradle include
+
+```
+compile 'com.github.ExidCuter:Fortnite4J:master-SNAPSHOT'
+```
+
+#### Code
+
 ```
 Fortnite fortnite = new Frortnite("YOUR-API-KEY");
 FortniteData data = fortnite.getPlayerInfo("pc", "ExidCuter"); // this is me
